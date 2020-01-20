@@ -1,0 +1,47 @@
+
+html {
+  box-sizing: border-box;   
+  font-family: helvetica;
+  font-weight: 200px;
+  font-size: 10px;
+  background-color: pink;
+}
+
+body {
+    margin: 10px;
+}
+
+.search-form {   
+    text-align: center;
+}
+
+.search {
+   font-size: 30px;
+   text-align: center;
+   
+}
+
+
+.results-container {   
+    margin: 0px 130px;
+    padding: 10px; 
+    background: white;
+    text-align:left;
+    
+}
+
+.cities-information {
+  display: flex;  
+  padding: 0px;
+  margin: 10px 10px;  
+}
+
+.population {
+    flex: 1; 
+    text-align: right;
+    white-space: nowrap;
+}
+
+.highlight {
+   text: yellow;
+}
